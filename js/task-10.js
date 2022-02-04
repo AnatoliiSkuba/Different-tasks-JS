@@ -24,6 +24,4 @@ buttonCreate.addEventListener('click', () => {
   createBoxes(amount);
 });
 
-buttonDestroy.addEventListener('click', () => {
-  destroyBoxes();
-});
+buttonDestroy.addEventListener('click', destroyBoxes);
